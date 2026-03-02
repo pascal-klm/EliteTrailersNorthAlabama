@@ -125,11 +125,21 @@ a:hover {
   font-size: var(--font-size-lg);
   color: var(--color-text);
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .header__logo:hover {
   text-decoration: none;
   color: var(--color-accent);
+}
+
+.header__logo-img {
+  display: block;
+  height: 44px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
 }
 
 .header__menu-btn {
@@ -249,8 +259,7 @@ a:hover {
   position: absolute;
   inset: 0;
   background: linear-gradient(135deg, #1e3a5f 0%, #2a4a7a 100%);
-  /* Replace with your hero image: background-image: url('images/hero.jpg'); background-size: cover; background-position: center; */
-  background-image: url('https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=1200&h=800&fit=crop');
+  background-image: url('../images/hero-aluminum-trailer.jpg');
   background-size: cover;
   background-position: center;
 }
